@@ -37,6 +37,20 @@ chmod +x altinstall_script.sh
 sudo checkinstall ./altinstall_script.sh
 # Change any default values of 'python' to 'python3.7'
 
+# Output:
+#**********************************************************************
+#
+# Done. The new package has been installed and saved to
+#
+# /root/src/Python-3.7.0/python3.7_3.7.0-1_amd64.deb
+#
+# You can remove it from your system anytime using:
+#
+#      dpkg -r python3.7
+#
+#**********************************************************************
+
+
 # Download and/or install important scripts
 cd ~/scripts
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
