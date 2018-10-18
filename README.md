@@ -12,7 +12,19 @@ _**rut LICENSING: [rut](https://github.com/datasnakes/rut/blob/add-license-1/LIC
 
 _**rinse LICENSING: [rinse](https://github.com/datasnakes/rinse/blob/add-license-1/LICENSE)**_
 
-## First commands as new user:
+## Instructions
+
+First download the beRi_setup.sh file into your home directory
+```bash
+$ cd
+$ curl -O https://gist.githubusercontent.com/grabear/498b67b89ba1c0d45fe3a7fef6271f29/raw/e47cd735ec5432edf6f4795a45481a7182ab4f14/beRi_setup.sh
+# Source the file once if pip is already installed.
+$ source beRi_setup.sh
+# Source the file twice if pip is not installed.  The bash shell needs to be reloaded.
+$ source beRi_setup.sh
+```
+
+## Bash script preview
 ```bash
 # Make directories
 mkdir scripts
