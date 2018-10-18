@@ -1,7 +1,16 @@
 # beRi demo (tested on Ubuntu-16.04)
 This demo was tested on Ubuntu-16.04 which comes pre-installed with bash, Python 3.6, git, and curl.  The beRi package have been built using Python 3.6.
-Other versions of Python/Ubuntu have not been tested.  Know bugs include [renv Issue #32](https://github.com/datasnakes/renv/issues/32)
+Other versions of Python have not been tested.  Other operating systems have not been tested.  Know bugs include [renv Issue #32](https://github.com/datasnakes/renv/issues/32)
 
+_**WARNING:  USE THIS AT YOUR OWN RISK.  THIS CODE IS UNTESTED.**_
+
+_**beRi LICENSING:  [beRi](https://github.com/datasnakes/beRi/blob/master/LICENSE)**_
+
+_**renv LICENSING: [renv](https://github.com/datasnakes/renv/blob/add-license-1/LICENSE)**_
+
+_**rut LICENSING: [rut](https://github.com/datasnakes/rut/blob/add-license-1/LICENSE)**_
+
+_**rinse LICENSING: [rinse](https://github.com/datasnakes/rinse/blob/add-license-1/LICENSE)**_
 
 ## First commands as new user:
 ```bash
